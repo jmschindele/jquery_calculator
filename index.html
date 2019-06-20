@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- css reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- link custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>JQuery Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-right" id='display'>0</div>
+      </div>
+      <div class="row">
+            <div class="col-3 btn btn-light" id='clear'>AC</div>
+            <div class="col-3 btn btn-light" id='negative'>+/-</div>
+          <div class="col-3 btn btn-light" id='percent'>%</div>
+          <div class="col-3 btn btn-warning" data-type='operator'>/</div>
+        </div>
+      <div class="row">
+        <div class="col-3 btn btn-dark" data-type='num'>7</div>
+        <div class="col-3 btn btn-dark" data-type='num'>8</div>
+        <div class="col-3 btn btn-dark" data-type='num'>9</div>
+        <div class="col-3 btn btn-warning" data-type='operator'>+</div>
+      </div>
+      <div class="row">
+        <div class="col-3 btn btn-dark" data-type='num'>4</div>
+        <div class="col-3 btn btn-dark" data-type='num'>5</div>
+        <div class="col-3 btn btn-dark" data-type='num'>6</div>
+        <div class="col-3 btn btn-warning" data-type='operator'>-</div>
+      </div>
+      <div class="row">
+        <div class="col-3 btn btn-dark" data-type='num'>1</div>
+        <div class="col-3 btn btn-dark" data-type='num'>2</div>
+        <div class="col-3 btn btn-dark" data-type='num'>3</div>
+        <div class="col-3 btn btn-warning" data-type='operator'>*</div>
+      </div>
+      <div class="row">
+          <div class="col-6 btn btn-dark btn-0 text-left" data-type='num'>0</div>
+          <div class="col-3 btn btn-dark" data-type='operator'>.</div>
+          <div class="col-3 btn btn-warning" data-type='solve' id='solve'>=</div>
+      </div>
+    </div>
+
+
+    <!-- link jquery -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  <!-- custom js -->
+  <script src="./assets/js/app.js"></script>
+  </body>
+</html>

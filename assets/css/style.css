@@ -1,0 +1,36 @@
+
+body {
+    background: grey;
+}
+
+.container {
+    margin-top: 40px;
+    width: 205px;
+    background: black;
+    border-radius: 5px;
+    
+}
+
+.btn {
+    border-radius: 1000px;
+    max-width: 40px;
+    margin: 5px;
+}
+
+.btn-warning {
+    color: white;
+}
+
+.btn-0 {
+    max-width: 92px;
+}
+#display {
+    color: white;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.selected{
+    background: whitesmoke;
+    color: orange;
+}
